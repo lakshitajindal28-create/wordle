@@ -20,7 +20,7 @@ for k in range(5):
             guess_1.append(j)
         #print(guess_1)
 
-        for s in range(6):
+        for s in range(5):
             if real_word[s] == guess_1[s]:
                 print("✔️", end = ' ')
             elif guess_1[s] in real_word:
