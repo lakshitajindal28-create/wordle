@@ -7,7 +7,7 @@ random_word = random.choice(list).lower()
 real_word = []
 for i in random_word:
     real_word.append(i)
-print(real_word)
+#print(real_word)
 
 print('Welcome to Wordle! Have Fun!')
 for k in range(5):
@@ -20,7 +20,7 @@ for k in range(5):
             guess_1.append(j)
         #print(guess_1)
 
-        for s in range(5):
+        for s in range(6):
             if real_word[s] == guess_1[s]:
                 print("✔️", end = ' ')
             elif guess_1[s] in real_word:
